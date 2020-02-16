@@ -1,0 +1,19 @@
+.suggested-list-ul {
+  position: absolute;
+  top: 50px;
+  z-index: 2;
+  background-color: #fff;
+  width: 400px;
+  cursor: pointer;
+  box-shadow: 0 12px 14px rgba(#000, 0.05);
+
+  .suggested-item {
+    padding: 12px 20px;
+    transition: all 0.25s ease-out;
+
+    &:hover {
+      background-color: cadetblue;
+      color: #fff;
+    }
+  }
+}

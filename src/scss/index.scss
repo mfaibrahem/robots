@@ -1,0 +1,18 @@
+@import './config';
+
+body {
+  background-color: #f7f8fa;
+  margin: 0;
+  padding: 0;
+  margin: 52px 0;
+  min-height: 100vh;
+  color: $main-color;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(
+    to left,
+    rgba(7, 27, 82, 1) 0%,
+    rgba(0, 128, 128, 1) 100%
+  );
+}
